@@ -1,0 +1,23 @@
+{
+  "name": "lambda-nexrad-sns-subscriber",
+  "version": "1.0.0",
+  "description": "Uses AWS SNS from nexrad repo to send results to SQS, where Lambda lets us know when new content is available.",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Craytor/lambda-nexrad-sns-subscriber.git"
+  },
+  "author": "Tyler Youschak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Craytor/lambda-nexrad-sns-subscriber/issues"
+  },
+  "homepage": "https://github.com/Craytor/lambda-nexrad-sns-subscriber#readme"
+}
